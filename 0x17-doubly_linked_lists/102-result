@@ -1,4 +1,3 @@
-#!/usr/bin/python3
 def is_palindrome(n):
     """Check if a number is a palindrome."""
     return str(n) == str(n)[::-1]
