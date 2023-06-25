@@ -1,10 +1,11 @@
 #include <stdio.h>
-#include <unistd.h>
-#include <string.h>
+#include <stdlib.h>
 
-int printf(const char* format, ...) 
+int atoi(const char *nptr) 
 {
-	const char* output =("9 8 10 24 75 -9\nCongratulations, you win the Jackpot!\n");
-	
-	write(1, output, strlen(output));
+	(void) nptr;
+
+	printf("9 8 10 24 75 -9\n");
+	printf("Congratulations, you win the Jackpot!\n");
+	exit (0);
 }
